@@ -1,0 +1,19 @@
+{
+    "name": "async-await-landing-page",
+    "version": "1.0.0",
+    "description": "Landing page for my async-await talk using particles.js",
+    "main": "app.js",
+    "dependencies": {
+        "express": "^4.16.4"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "start": "node app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dfrechdev/async-await-start-page"
+    },
+    "author": "Daniel Frech",
+    "license": "MIT"
+}

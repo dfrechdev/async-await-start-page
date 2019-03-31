@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+html {
+    background: #49abdf;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+.absolute-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+#title-container {
+    text-align: left;
+    padding: 25px 50px;
+}
+#title {
+    font-size: 10rem;
+    font-weight: 700;
+    margin: 0;
+}
+#subtitle {
+    padding-left: 15px;
+    font-size: 2rem;
+    font-weight: 100;
+    margin: 0;
+    margin-bottom: -40px;
+}
