@@ -12,6 +12,6 @@ app.get("/", function(req, res) {
 });
 
 // start server
-app.listen(3001, function() {
-    console.log("Start page available on http://localhost:3001/");
+app.listen(3002, function() {
+    console.log("Start page available on http://localhost:3002/");
 });
